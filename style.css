@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-top: 150px;
+}
+.number{
+    height: 70px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 590px;
+    color: black;
+    text-align: center;
+   font-size: 60px;
+    border: 3px solid white;
+}
+hr{
+    height: 10px;
+    background-color: white;
+    margin-top: 45px;
+}
+.left_side{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+.input{
+    font-size: x-large;
+}
+.box{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="number"]{
+    height:60px;
+    width: 180px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    border: 3px solid red;
+}
+#check{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    font-size: larger;
+    border: 5px solid red;
+}
+.right_side{
+    position: absolute;
+    left: 900px;
+    top: 260px;
+}
+.message{
+    font-size: x-large;
+}
+.chance{
+    font-size: x-large;
+}
+.score{
+    font-size: x-large;
+}
+
+#playagain{
+    height: 60px;
+    width: 180px;
+    font-size: large;
+    font-size: larger;
+    position: absolute;
+    left: 550px;
+    top: 500px;
+    border: 5px solid red;
+}
